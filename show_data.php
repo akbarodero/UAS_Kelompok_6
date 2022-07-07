@@ -14,6 +14,7 @@
 			echo "</center>";
 	?>
 	<h3><a href="input_data.php">Input Data</a></h3>
+	<h3><a href="proses/logout.php">logout</a></h3>
 	<table border="1px">
 		<thead>
 			<th>No</th>
