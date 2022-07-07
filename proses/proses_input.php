@@ -17,5 +17,5 @@
 	$sql = "INSERT INTO daftar_peserta_vaksin VALUES (NULL, '$prov', '$kab', '$kec', '$jenis_faskes', '$dependesi', '$nik', '$nama', '$jk', '$umur', '$tgl_lahir', '$no_hp', '$alamat')" ;
 
 	$eksekusi = mysql_query($sql);
-	header('location:../index.php');
+	header('location:../show_data.php');
 ?>
