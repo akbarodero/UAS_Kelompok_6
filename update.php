@@ -10,7 +10,7 @@
 	$sql_peserta = "SELECT * FROM daftar_peserta_vaksin WHERE id_peserta = '$id' ";
 	$peserta = mysql_fetch_assoc(mysql_query($sql_peserta));
 ?>
-	<form method="POST" name="" action="proses/proses_input.php">
+	<form method="POST" name="" action="proses/proses_update.php">
 		<table align="center" border="1" cellpadding="0" cellspacing="0">
 			<tr align="center">
 				<td><h2><b>Update Data</b></h2></td>
